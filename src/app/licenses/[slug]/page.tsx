@@ -30,8 +30,9 @@ export function generateStaticParams() {
   return licenses.map((license) => ({ slug: license.slug }));
 }
 
-export function generateMetadata({ params }: { params: Params }): Metadata {
-  const record = getLicenseBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+  const { slug } = await params;
+  const record = getLicenseBySlug(slug);
   if (!record) {
     return {
       title: "License Record Not Found",
@@ -45,8 +46,9 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
   };
 }
 
-export default function LicenseDetail({ params }: { params: Params }) {
-  const license = getLicenseBySlug(params.slug);
+export default async function LicenseDetail({ params }: { params: Promise<Params> }) {
+  const { slug } = await params;
+  const license = getLicenseBySlug(slug);
 
   if (!license) {
     notFound();
