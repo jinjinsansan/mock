@@ -27,20 +27,20 @@ export const licenses = [
     "issueDate": "2014-01-01",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "12 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-bridge-advisors.cv",
-    "contactPhone": "+238 59000 200",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Bridge Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Ana Almeida",
-        "role": "Managing Director"
+        "name": "Joana Ramos",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Daniel Fernandes",
-        "role": "Chief Compliance Officer"
+        "name": "Marta Oliveira",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -52,24 +52,20 @@ export const licenses = [
     "issueDate": "2015-04-08",
     "expiryDate": "2020-04-08",
     "status": "Active",
-    "registeredAddress": "13 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-bridge-holdings.cv",
-    "contactPhone": "+238 59013 207",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Bridge Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Bruno Cardoso",
-        "role": "Chief Compliance Officer"
-      },
-      {
-        "name": "Elisa Henriques",
+        "name": "Vasco Macedo",
         "role": "Head of Trading"
       },
       {
-        "name": "Igor Pereira",
-        "role": "Risk Management Lead"
+        "name": "Bruno Delgado",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -81,20 +77,20 @@ export const licenses = [
     "issueDate": "2016-07-15",
     "expiryDate": "2021-07-15",
     "status": "Active",
-    "registeredAddress": "14 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-bridge-partners.cv",
-    "contactPhone": "+238 59026 214",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Bridge Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Carla Esteves",
-        "role": "Head of Trading"
+        "name": "Helena Esteves",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Fabio Macedo",
-        "role": "Risk Management Lead"
+        "name": "Nuno Ramos",
+        "role": "Treasury Controller"
       }
     ]
   },
@@ -106,24 +102,20 @@ export const licenses = [
     "issueDate": "2017-10-22",
     "expiryDate": "2022-10-22",
     "status": "Active",
-    "registeredAddress": "15 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-bridge-ventures.cv",
-    "contactPhone": "+238 59039 221",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Bridge Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Daniel Gomes",
-        "role": "Risk Management Lead"
-      },
-      {
-        "name": "Helena Oliveira",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Luis Tavares",
+        "name": "Sergio Zamora",
         "role": "Client Relations Principal"
+      },
+      {
+        "name": "Carla Gomes",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -135,20 +127,24 @@ export const licenses = [
     "issueDate": "2018-01-01",
     "expiryDate": "2023-01-01",
     "status": "Under Review",
-    "registeredAddress": "16 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-bridge-consulting.cv",
-    "contactPhone": "+238 59052 228",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Bridge Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Elisa Lima",
-        "role": "Operations Supervisor"
+        "name": "Daniel Ramos",
+        "role": "Chief Compliance Officer"
       },
       {
-        "name": "Igor Quintino",
-        "role": "Client Relations Principal"
+        "name": "Paulo Vidal",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Paulo Macedo",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -160,23 +156,23 @@ export const licenses = [
     "issueDate": "2019-04-08",
     "expiryDate": "2024-04-08",
     "status": "Suspended",
-    "registeredAddress": "17 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-bridge-markets.cv",
-    "contactPhone": "+238 59065 235",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Bridge Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Fabio Neves",
-        "role": "Client Relations Principal"
+        "name": "Olivia Macedo",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Joana Silva",
-        "role": "Managing Director"
+        "name": "Daniel Macedo",
+        "role": "Head of Trading"
       },
       {
-        "name": "Nuno Almeida",
+        "name": "Igor Delgado",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -189,19 +185,23 @@ export const licenses = [
     "issueDate": "2020-07-15",
     "expiryDate": "2025-07-15",
     "status": "Lapsed",
-    "registeredAddress": "18 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-bridge-trust.cv",
-    "contactPhone": "+238 59078 242",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Bridge Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Helena Pereira",
-        "role": "Managing Director"
+        "name": "Bruno Esteves",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Luis Vidal",
+        "name": "Rita Almeida",
+        "role": "Operations Supervisor"
+      },
+      {
+        "name": "Carla Vidal",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -214,24 +214,24 @@ export const licenses = [
     "issueDate": "2021-10-22",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "19 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-bridge-associates.cv",
-    "contactPhone": "+238 59091 249",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Bridge Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Igor Ramos",
-        "role": "Chief Compliance Officer"
-      },
-      {
         "name": "Marta Zamora",
-        "role": "Head of Trading"
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Paulo Esteves",
-        "role": "Risk Management Lead"
+        "name": "Fabio Pereira",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Teresa Oliveira",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -243,20 +243,24 @@ export const licenses = [
     "issueDate": "2022-01-01",
     "expiryDate": "2027-01-01",
     "status": "Active",
-    "registeredAddress": "20 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-bridge-investments.cv",
-    "contactPhone": "+238 59104 256",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Bridge Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Joana Tavares",
-        "role": "Head of Trading"
+        "name": "Wilma Ramos",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Nuno Barbosa",
-        "role": "Risk Management Lead"
+        "name": "Sergio Esteves",
+        "role": "Market Surveillance Officer"
+      },
+      {
+        "name": "Nuno Fernandes",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -268,24 +272,28 @@ export const licenses = [
     "issueDate": "2023-04-08",
     "expiryDate": "2028-04-08",
     "status": "Active",
-    "registeredAddress": "21 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-bridge-services.cv",
-    "contactPhone": "+238 59117 263",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Bridge Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Luis Xavier",
-        "role": "Risk Management Lead"
+        "name": "Igor Macedo",
+        "role": "Head of Trading"
       },
       {
-        "name": "Olivia Delgado",
-        "role": "Operations Supervisor"
+        "name": "Helena Silva",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Sergio Lima",
-        "role": "Client Relations Principal"
+        "name": "Helena Zamora",
+        "role": "Head of Trading"
+      },
+      {
+        "name": "Helena Silva",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -297,20 +305,28 @@ export const licenses = [
     "issueDate": "2014-07-15",
     "expiryDate": "2019-07-15",
     "status": "Active",
-    "registeredAddress": "22 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-capital-advisors.cv",
-    "contactPhone": "+238 59130 270",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Capital Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Marta Almeida",
-        "role": "Operations Supervisor"
+        "name": "Teresa Esteves",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Paulo Fernandes",
-        "role": "Client Relations Principal"
+        "name": "Vasco Henriques",
+        "role": "Head of Trading"
+      },
+      {
+        "name": "Ana Quintino",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Nuno Quintino",
+        "role": "Institutional Liaison"
       }
     ]
   },
@@ -322,24 +338,28 @@ export const licenses = [
     "issueDate": "2015-10-22",
     "expiryDate": "2020-10-22",
     "status": "Under Review",
-    "registeredAddress": "23 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-capital-holdings.cv",
-    "contactPhone": "+238 59143 277",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Capital Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Nuno Cardoso",
+        "name": "Fabio Zamora",
         "role": "Client Relations Principal"
       },
       {
-        "name": "Rita Henriques",
-        "role": "Managing Director"
+        "name": "Igor Xavier",
+        "role": "Operations Supervisor"
       },
       {
-        "name": "Vasco Pereira",
-        "role": "Chief Compliance Officer"
+        "name": "Sergio Henriques",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Teresa Neves",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -351,20 +371,28 @@ export const licenses = [
     "issueDate": "2016-01-01",
     "expiryDate": "2021-01-01",
     "status": "Suspended",
-    "registeredAddress": "24 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-capital-partners.cv",
-    "contactPhone": "+238 59156 284",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Capital Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Olivia Esteves",
+        "name": "Paulo Quintino",
         "role": "Managing Director"
       },
       {
-        "name": "Sergio Macedo",
-        "role": "Chief Compliance Officer"
+        "name": "Wilma Neves",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Luis Almeida",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Ana Lima",
+        "role": "Managing Director"
       }
     ]
   },
@@ -376,24 +404,20 @@ export const licenses = [
     "issueDate": "2017-04-08",
     "expiryDate": "2022-04-08",
     "status": "Lapsed",
-    "registeredAddress": "25 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-capital-ventures.cv",
-    "contactPhone": "+238 59169 291",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Capital Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Paulo Gomes",
-        "role": "Chief Compliance Officer"
+        "name": "Carla Lima",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Teresa Oliveira",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Yuri Tavares",
-        "role": "Risk Management Lead"
+        "name": "Luis Barbosa",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -405,20 +429,20 @@ export const licenses = [
     "issueDate": "2018-07-15",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "26 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-capital-consulting.cv",
-    "contactPhone": "+238 59182 298",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Capital Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Rita Lima",
-        "role": "Head of Trading"
+        "name": "Nuno Delgado",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Vasco Quintino",
-        "role": "Risk Management Lead"
+        "name": "Yuri Quintino",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -430,24 +454,20 @@ export const licenses = [
     "issueDate": "2019-10-22",
     "expiryDate": "2024-10-22",
     "status": "Active",
-    "registeredAddress": "27 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-capital-markets.cv",
-    "contactPhone": "+238 59195 305",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Capital Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Sergio Neves",
-        "role": "Risk Management Lead"
+        "name": "Ana Xavier",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Wilma Silva",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Bruno Almeida",
-        "role": "Client Relations Principal"
+        "name": "Marta Esteves",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -459,20 +479,20 @@ export const licenses = [
     "issueDate": "2020-01-01",
     "expiryDate": "2025-01-01",
     "status": "Active",
-    "registeredAddress": "28 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-capital-trust.cv",
-    "contactPhone": "+238 59208 312",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Capital Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Teresa Pereira",
-        "role": "Operations Supervisor"
+        "name": "Joana Quintino",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Yuri Vidal",
-        "role": "Client Relations Principal"
+        "name": "Bruno Tavares",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -484,24 +504,20 @@ export const licenses = [
     "issueDate": "2021-04-08",
     "expiryDate": "2026-04-08",
     "status": "Active",
-    "registeredAddress": "29 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-capital-associates.cv",
-    "contactPhone": "+238 59221 319",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Capital Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Vasco Ramos",
-        "role": "Client Relations Principal"
-      },
-      {
-        "name": "Ana Zamora",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Daniel Esteves",
+        "name": "Vasco Lima",
         "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Nuno Lima",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -513,20 +529,24 @@ export const licenses = [
     "issueDate": "2022-07-15",
     "expiryDate": "2027-07-15",
     "status": "Under Review",
-    "registeredAddress": "30 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-capital-investments.cv",
-    "contactPhone": "+238 59234 326",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Capital Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Wilma Tavares",
-        "role": "Managing Director"
+        "name": "Helena Delgado",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Bruno Barbosa",
-        "role": "Chief Compliance Officer"
+        "name": "Carla Zamora",
+        "role": "Market Surveillance Officer"
+      },
+      {
+        "name": "Vasco Esteves",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -538,24 +558,24 @@ export const licenses = [
     "issueDate": "2023-10-22",
     "expiryDate": "2028-10-22",
     "status": "Suspended",
-    "registeredAddress": "31 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-capital-services.cv",
-    "contactPhone": "+238 59247 333",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Capital Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Yuri Xavier",
-        "role": "Chief Compliance Officer"
+        "name": "Sergio Xavier",
+        "role": "Operations Supervisor"
       },
       {
-        "name": "Carla Delgado",
-        "role": "Head of Trading"
+        "name": "Paulo Oliveira",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Fabio Lima",
-        "role": "Risk Management Lead"
+        "name": "Olivia Xavier",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -567,20 +587,24 @@ export const licenses = [
     "issueDate": "2014-01-01",
     "expiryDate": "2019-01-01",
     "status": "Lapsed",
-    "registeredAddress": "32 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-channel-advisors.cv",
-    "contactPhone": "+238 59260 340",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Channel Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Ana Almeida",
+        "name": "Daniel Quintino",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Daniel Cardoso",
         "role": "Head of Trading"
       },
       {
-        "name": "Daniel Fernandes",
-        "role": "Risk Management Lead"
+        "name": "Helena Pereira",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -592,24 +616,24 @@ export const licenses = [
     "issueDate": "2015-04-08",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "33 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-channel-holdings.cv",
-    "contactPhone": "+238 59273 347",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Channel Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Bruno Cardoso",
-        "role": "Risk Management Lead"
+        "name": "Olivia Lima",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Elisa Henriques",
+        "name": "Rita Ramos",
         "role": "Operations Supervisor"
       },
       {
-        "name": "Igor Pereira",
-        "role": "Client Relations Principal"
+        "name": "Bruno Gomes",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -621,20 +645,24 @@ export const licenses = [
     "issueDate": "2016-07-15",
     "expiryDate": "2021-07-15",
     "status": "Active",
-    "registeredAddress": "34 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-channel-partners.cv",
-    "contactPhone": "+238 59286 354",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Channel Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Carla Esteves",
-        "role": "Operations Supervisor"
+        "name": "Bruno Delgado",
+        "role": "Head of Trading"
       },
       {
-        "name": "Fabio Macedo",
-        "role": "Client Relations Principal"
+        "name": "Fabio Fernandes",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Sergio Almeida",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -646,24 +674,28 @@ export const licenses = [
     "issueDate": "2017-10-22",
     "expiryDate": "2022-10-22",
     "status": "Active",
-    "registeredAddress": "35 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-channel-ventures.cv",
-    "contactPhone": "+238 59299 361",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Channel Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Daniel Gomes",
-        "role": "Client Relations Principal"
+        "name": "Marta Xavier",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Helena Oliveira",
-        "role": "Managing Director"
+        "name": "Sergio Vidal",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Luis Tavares",
-        "role": "Chief Compliance Officer"
+        "name": "Marta Ramos",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Olivia Barbosa",
+        "role": "Institutional Liaison"
       }
     ]
   },
@@ -675,20 +707,28 @@ export const licenses = [
     "issueDate": "2018-01-01",
     "expiryDate": "2023-01-01",
     "status": "Active",
-    "registeredAddress": "36 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-channel-consulting.cv",
-    "contactPhone": "+238 59312 368",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Channel Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Elisa Lima",
-        "role": "Managing Director"
+        "name": "Wilma Quintino",
+        "role": "Client Relations Principal"
       },
       {
-        "name": "Igor Quintino",
-        "role": "Chief Compliance Officer"
+        "name": "Helena Macedo",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Fabio Lima",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Teresa Zamora",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -700,24 +740,28 @@ export const licenses = [
     "issueDate": "2019-04-08",
     "expiryDate": "2024-04-08",
     "status": "Under Review",
-    "registeredAddress": "37 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-channel-markets.cv",
-    "contactPhone": "+238 59325 375",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Channel Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Fabio Neves",
+        "name": "Igor Henriques",
         "role": "Chief Compliance Officer"
       },
       {
-        "name": "Joana Silva",
+        "name": "Teresa Almeida",
         "role": "Head of Trading"
       },
       {
-        "name": "Nuno Almeida",
-        "role": "Risk Management Lead"
+        "name": "Yuri Barbosa",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Bruno Tavares",
+        "role": "Managing Director"
       }
     ]
   },
@@ -729,20 +773,28 @@ export const licenses = [
     "issueDate": "2020-07-15",
     "expiryDate": "2025-07-15",
     "status": "Suspended",
-    "registeredAddress": "38 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-channel-trust.cv",
-    "contactPhone": "+238 59338 382",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Channel Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Helena Pereira",
-        "role": "Head of Trading"
+        "name": "Teresa Cardoso",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Luis Vidal",
-        "role": "Risk Management Lead"
+        "name": "Igor Pereira",
+        "role": "Operations Supervisor"
+      },
+      {
+        "name": "Rita Silva",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Helena Ramos",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -754,24 +806,20 @@ export const licenses = [
     "issueDate": "2021-10-22",
     "expiryDate": "2026-10-22",
     "status": "Lapsed",
-    "registeredAddress": "39 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-channel-associates.cv",
-    "contactPhone": "+238 59351 389",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Channel Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Igor Ramos",
+        "name": "Fabio Vidal",
         "role": "Risk Management Lead"
       },
       {
-        "name": "Marta Zamora",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Paulo Esteves",
-        "role": "Client Relations Principal"
+        "name": "Wilma Delgado",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -783,20 +831,20 @@ export const licenses = [
     "issueDate": "2022-01-01",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "40 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-channel-investments.cv",
-    "contactPhone": "+238 59364 396",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Channel Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Joana Tavares",
-        "role": "Operations Supervisor"
+        "name": "Paulo Pereira",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Nuno Barbosa",
-        "role": "Client Relations Principal"
+        "name": "Joana Silva",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -808,24 +856,20 @@ export const licenses = [
     "issueDate": "2023-04-08",
     "expiryDate": "2028-04-08",
     "status": "Active",
-    "registeredAddress": "41 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-channel-services.cv",
-    "contactPhone": "+238 59377 403",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Channel Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Luis Xavier",
-        "role": "Client Relations Principal"
+        "name": "Carla Henriques",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Olivia Delgado",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Sergio Lima",
-        "role": "Chief Compliance Officer"
+        "name": "Yuri Gomes",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -837,19 +881,19 @@ export const licenses = [
     "issueDate": "2014-07-15",
     "expiryDate": "2019-07-15",
     "status": "Active",
-    "registeredAddress": "42 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-coast-advisors.cv",
-    "contactPhone": "+238 59390 410",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Coast Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Marta Almeida",
-        "role": "Managing Director"
+        "name": "Nuno Cardoso",
+        "role": "Head of Trading"
       },
       {
-        "name": "Paulo Fernandes",
+        "name": "Marta Xavier",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -862,24 +906,20 @@ export const licenses = [
     "issueDate": "2015-10-22",
     "expiryDate": "2020-10-22",
     "status": "Active",
-    "registeredAddress": "43 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-coast-holdings.cv",
-    "contactPhone": "+238 59403 417",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Coast Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Nuno Cardoso",
-        "role": "Chief Compliance Officer"
+        "name": "Ana Vidal",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Rita Henriques",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Vasco Pereira",
-        "role": "Risk Management Lead"
+        "name": "Ana Macedo",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -891,20 +931,24 @@ export const licenses = [
     "issueDate": "2016-01-01",
     "expiryDate": "2021-01-01",
     "status": "Under Review",
-    "registeredAddress": "44 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-coast-partners.cv",
-    "contactPhone": "+238 59416 424",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Coast Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Olivia Esteves",
-        "role": "Head of Trading"
+        "name": "Joana Pereira",
+        "role": "Client Relations Principal"
       },
       {
-        "name": "Sergio Macedo",
-        "role": "Risk Management Lead"
+        "name": "Nuno Barbosa",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Bruno Zamora",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -916,24 +960,24 @@ export const licenses = [
     "issueDate": "2017-04-08",
     "expiryDate": "2022-04-08",
     "status": "Suspended",
-    "registeredAddress": "45 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-coast-ventures.cv",
-    "contactPhone": "+238 59429 431",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Coast Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Paulo Gomes",
-        "role": "Risk Management Lead"
+        "name": "Vasco Henriques",
+        "role": "Managing Director"
       },
       {
-        "name": "Teresa Oliveira",
-        "role": "Operations Supervisor"
+        "name": "Carla Quintino",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Yuri Tavares",
-        "role": "Client Relations Principal"
+        "name": "Teresa Quintino",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -945,20 +989,24 @@ export const licenses = [
     "issueDate": "2018-07-15",
     "expiryDate": "2023-07-15",
     "status": "Lapsed",
-    "registeredAddress": "46 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-coast-consulting.cv",
-    "contactPhone": "+238 59442 438",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Coast Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Rita Lima",
-        "role": "Operations Supervisor"
+        "name": "Helena Cardoso",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Vasco Quintino",
-        "role": "Client Relations Principal"
+        "name": "Olivia Esteves",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Nuno Henriques",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -970,24 +1018,24 @@ export const licenses = [
     "issueDate": "2019-10-22",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "47 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-coast-markets.cv",
-    "contactPhone": "+238 59455 445",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Coast Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Sergio Neves",
-        "role": "Client Relations Principal"
+        "name": "Sergio Vidal",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Wilma Silva",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Bruno Almeida",
+        "name": "Daniel Tavares",
         "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Fabio Barbosa",
+        "role": "Institutional Liaison"
       }
     ]
   },
@@ -999,20 +1047,24 @@ export const licenses = [
     "issueDate": "2020-01-01",
     "expiryDate": "2025-01-01",
     "status": "Active",
-    "registeredAddress": "48 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-coast-trust.cv",
-    "contactPhone": "+238 59468 452",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Coast Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Teresa Pereira",
-        "role": "Managing Director"
+        "name": "Daniel Pereira",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Yuri Vidal",
-        "role": "Chief Compliance Officer"
+        "name": "Rita Henriques",
+        "role": "Operations Supervisor"
+      },
+      {
+        "name": "Ana Silva",
+        "role": "Institutional Liaison"
       }
     ]
   },
@@ -1024,24 +1076,28 @@ export const licenses = [
     "issueDate": "2021-04-08",
     "expiryDate": "2026-04-08",
     "status": "Active",
-    "registeredAddress": "49 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-coast-associates.cv",
-    "contactPhone": "+238 59481 459",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Coast Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Vasco Ramos",
-        "role": "Chief Compliance Officer"
+        "name": "Olivia Henriques",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Ana Zamora",
-        "role": "Head of Trading"
+        "name": "Elisa Zamora",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Daniel Esteves",
-        "role": "Risk Management Lead"
+        "name": "Rita Macedo",
+        "role": "Institutional Liaison"
+      },
+      {
+        "name": "Vasco Henriques",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -1053,20 +1109,28 @@ export const licenses = [
     "issueDate": "2022-07-15",
     "expiryDate": "2027-07-15",
     "status": "Active",
-    "registeredAddress": "50 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-coast-investments.cv",
-    "contactPhone": "+238 59494 466",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Coast Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Wilma Tavares",
-        "role": "Head of Trading"
+        "name": "Bruno Barbosa",
+        "role": "Chief Compliance Officer"
       },
       {
-        "name": "Bruno Barbosa",
-        "role": "Risk Management Lead"
+        "name": "Sergio Neves",
+        "role": "Market Surveillance Officer"
+      },
+      {
+        "name": "Luis Cardoso",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Carla Fernandes",
+        "role": "Managing Director"
       }
     ]
   },
@@ -1078,24 +1142,28 @@ export const licenses = [
     "issueDate": "2023-10-22",
     "expiryDate": "2028-10-22",
     "status": "Under Review",
-    "registeredAddress": "51 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-coast-services.cv",
-    "contactPhone": "+238 59507 473",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Coast Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Yuri Xavier",
-        "role": "Risk Management Lead"
+        "name": "Marta Tavares",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Carla Delgado",
-        "role": "Operations Supervisor"
+        "name": "Helena Cardoso",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Fabio Lima",
-        "role": "Client Relations Principal"
+        "name": "Elisa Tavares",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Helena Cardoso",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -1107,20 +1175,28 @@ export const licenses = [
     "issueDate": "2014-01-01",
     "expiryDate": "2019-01-01",
     "status": "Suspended",
-    "registeredAddress": "52 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-crest-advisors.cv",
-    "contactPhone": "+238 59520 480",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Crest Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Ana Almeida",
+        "name": "Wilma Oliveira",
         "role": "Operations Supervisor"
       },
       {
-        "name": "Daniel Fernandes",
-        "role": "Client Relations Principal"
+        "name": "Teresa Quintino",
+        "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Wilma Neves",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Nuno Almeida",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -1132,24 +1208,20 @@ export const licenses = [
     "issueDate": "2015-04-08",
     "expiryDate": "2020-04-08",
     "status": "Lapsed",
-    "registeredAddress": "53 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-crest-holdings.cv",
-    "contactPhone": "+238 59533 487",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Crest Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Bruno Cardoso",
-        "role": "Client Relations Principal"
+        "name": "Igor Gomes",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Elisa Henriques",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Igor Pereira",
-        "role": "Chief Compliance Officer"
+        "name": "Igor Fernandes",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -1161,20 +1233,20 @@ export const licenses = [
     "issueDate": "2016-07-15",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "54 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-crest-partners.cv",
-    "contactPhone": "+238 59546 494",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Crest Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Carla Esteves",
-        "role": "Managing Director"
+        "name": "Teresa Barbosa",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Fabio Macedo",
-        "role": "Chief Compliance Officer"
+        "name": "Wilma Vidal",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -1186,24 +1258,20 @@ export const licenses = [
     "issueDate": "2017-10-22",
     "expiryDate": "2022-10-22",
     "status": "Active",
-    "registeredAddress": "55 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-crest-ventures.cv",
-    "contactPhone": "+238 59559 501",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Crest Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Daniel Gomes",
-        "role": "Chief Compliance Officer"
-      },
-      {
-        "name": "Helena Oliveira",
+        "name": "Fabio Tavares",
         "role": "Head of Trading"
       },
       {
-        "name": "Luis Tavares",
-        "role": "Risk Management Lead"
+        "name": "Joana Lima",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -1215,20 +1283,20 @@ export const licenses = [
     "issueDate": "2018-01-01",
     "expiryDate": "2023-01-01",
     "status": "Active",
-    "registeredAddress": "56 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-crest-consulting.cv",
-    "contactPhone": "+238 59572 508",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Crest Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Elisa Lima",
-        "role": "Head of Trading"
+        "name": "Paulo Oliveira",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Igor Quintino",
-        "role": "Risk Management Lead"
+        "name": "Yuri Almeida",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -1240,24 +1308,20 @@ export const licenses = [
     "issueDate": "2019-04-08",
     "expiryDate": "2024-04-08",
     "status": "Active",
-    "registeredAddress": "57 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-crest-markets.cv",
-    "contactPhone": "+238 59585 515",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Crest Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Fabio Neves",
-        "role": "Risk Management Lead"
-      },
-      {
-        "name": "Joana Silva",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Nuno Almeida",
+        "name": "Carla Gomes",
         "role": "Client Relations Principal"
+      },
+      {
+        "name": "Marta Oliveira",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -1269,20 +1333,24 @@ export const licenses = [
     "issueDate": "2020-07-15",
     "expiryDate": "2025-07-15",
     "status": "Under Review",
-    "registeredAddress": "58 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-crest-trust.cv",
-    "contactPhone": "+238 59598 522",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Crest Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Helena Pereira",
+        "name": "Nuno Barbosa",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Ana Delgado",
         "role": "Operations Supervisor"
       },
       {
-        "name": "Luis Vidal",
-        "role": "Client Relations Principal"
+        "name": "Helena Ramos",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -1294,23 +1362,23 @@ export const licenses = [
     "issueDate": "2021-10-22",
     "expiryDate": "2026-10-22",
     "status": "Suspended",
-    "registeredAddress": "59 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-crest-associates.cv",
-    "contactPhone": "+238 59611 529",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Crest Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Igor Ramos",
-        "role": "Client Relations Principal"
+        "name": "Ana Tavares",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Marta Zamora",
-        "role": "Managing Director"
+        "name": "Nuno Ramos",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Paulo Esteves",
+        "name": "Ana Lima",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -1323,19 +1391,23 @@ export const licenses = [
     "issueDate": "2022-01-01",
     "expiryDate": "2027-01-01",
     "status": "Lapsed",
-    "registeredAddress": "60 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-crest-investments.cv",
-    "contactPhone": "+238 59624 536",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Crest Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Joana Tavares",
-        "role": "Managing Director"
+        "name": "Joana Oliveira",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Nuno Barbosa",
+        "name": "Bruno Gomes",
+        "role": "AML Programme Lead"
+      },
+      {
+        "name": "Sergio Cardoso",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -1348,24 +1420,24 @@ export const licenses = [
     "issueDate": "2023-04-08",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "61 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-crest-services.cv",
-    "contactPhone": "+238 59637 543",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Crest Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Luis Xavier",
-        "role": "Chief Compliance Officer"
+        "name": "Vasco Gomes",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Olivia Delgado",
+        "name": "Olivia Xavier",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Marta Tavares",
         "role": "Head of Trading"
-      },
-      {
-        "name": "Sergio Lima",
-        "role": "Risk Management Lead"
       }
     ]
   },
@@ -1377,20 +1449,28 @@ export const licenses = [
     "issueDate": "2014-07-15",
     "expiryDate": "2019-07-15",
     "status": "Active",
-    "registeredAddress": "62 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-harbor-advisors.cv",
-    "contactPhone": "+238 59650 550",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Harbor Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Marta Almeida",
+        "name": "Helena Barbosa",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Daniel Macedo",
+        "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Elisa Neves",
         "role": "Head of Trading"
       },
       {
-        "name": "Paulo Fernandes",
-        "role": "Risk Management Lead"
+        "name": "Wilma Silva",
+        "role": "Managing Director"
       }
     ]
   },
@@ -1402,24 +1482,28 @@ export const licenses = [
     "issueDate": "2015-10-22",
     "expiryDate": "2020-10-22",
     "status": "Active",
-    "registeredAddress": "63 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-harbor-holdings.cv",
-    "contactPhone": "+238 59663 557",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Harbor Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Nuno Cardoso",
-        "role": "Risk Management Lead"
+        "name": "Sergio Silva",
+        "role": "Head of Trading"
       },
       {
-        "name": "Rita Henriques",
+        "name": "Paulo Barbosa",
         "role": "Operations Supervisor"
       },
       {
-        "name": "Vasco Pereira",
-        "role": "Client Relations Principal"
+        "name": "Yuri Delgado",
+        "role": "Head of Trading"
+      },
+      {
+        "name": "Carla Quintino",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -1431,20 +1515,28 @@ export const licenses = [
     "issueDate": "2016-01-01",
     "expiryDate": "2021-01-01",
     "status": "Active",
-    "registeredAddress": "64 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-harbor-partners.cv",
-    "contactPhone": "+238 59676 564",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Harbor Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Olivia Esteves",
-        "role": "Operations Supervisor"
+        "name": "Daniel Neves",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Sergio Macedo",
-        "role": "Client Relations Principal"
+        "name": "Elisa Pereira",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Paulo Vidal",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Igor Neves",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -1456,24 +1548,28 @@ export const licenses = [
     "issueDate": "2017-04-08",
     "expiryDate": "2022-04-08",
     "status": "Under Review",
-    "registeredAddress": "65 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-harbor-ventures.cv",
-    "contactPhone": "+238 59689 571",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Harbor Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Paulo Gomes",
-        "role": "Client Relations Principal"
+        "name": "Olivia Fernandes",
+        "role": "Operations Supervisor"
       },
       {
-        "name": "Teresa Oliveira",
-        "role": "Managing Director"
+        "name": "Sergio Esteves",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Yuri Tavares",
-        "role": "Chief Compliance Officer"
+        "name": "Joana Oliveira",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Olivia Lima",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -1485,20 +1581,28 @@ export const licenses = [
     "issueDate": "2018-07-15",
     "expiryDate": "2023-07-15",
     "status": "Suspended",
-    "registeredAddress": "66 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-harbor-consulting.cv",
-    "contactPhone": "+238 59702 578",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Harbor Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Rita Lima",
+        "name": "Bruno Almeida",
         "role": "Managing Director"
       },
       {
-        "name": "Vasco Quintino",
-        "role": "Chief Compliance Officer"
+        "name": "Fabio Silva",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Daniel Fernandes",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Teresa Gomes",
+        "role": "Risk Management Lead"
       }
     ]
   },
@@ -1510,24 +1614,20 @@ export const licenses = [
     "issueDate": "2019-10-22",
     "expiryDate": "2024-10-22",
     "status": "Lapsed",
-    "registeredAddress": "67 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-harbor-markets.cv",
-    "contactPhone": "+238 59715 585",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Harbor Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Sergio Neves",
+        "name": "Marta Silva",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Teresa Henriques",
         "role": "Chief Compliance Officer"
-      },
-      {
-        "name": "Wilma Silva",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Bruno Almeida",
-        "role": "Risk Management Lead"
       }
     ]
   },
@@ -1539,20 +1639,20 @@ export const licenses = [
     "issueDate": "2020-01-01",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "68 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-harbor-trust.cv",
-    "contactPhone": "+238 59728 592",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Harbor Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Teresa Pereira",
-        "role": "Head of Trading"
+        "name": "Wilma Neves",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Yuri Vidal",
-        "role": "Risk Management Lead"
+        "name": "Igor Xavier",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -1564,24 +1664,20 @@ export const licenses = [
     "issueDate": "2021-04-08",
     "expiryDate": "2026-04-08",
     "status": "Active",
-    "registeredAddress": "69 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-harbor-associates.cv",
-    "contactPhone": "+238 59741 599",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Harbor Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Vasco Ramos",
-        "role": "Risk Management Lead"
+        "name": "Igor Fernandes",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Ana Zamora",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Daniel Esteves",
-        "role": "Client Relations Principal"
+        "name": "Vasco Neves",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -1593,20 +1689,20 @@ export const licenses = [
     "issueDate": "2022-07-15",
     "expiryDate": "2027-07-15",
     "status": "Active",
-    "registeredAddress": "70 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-harbor-investments.cv",
-    "contactPhone": "+238 59754 606",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Harbor Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Wilma Tavares",
-        "role": "Operations Supervisor"
+        "name": "Teresa Almeida",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Bruno Barbosa",
-        "role": "Client Relations Principal"
+        "name": "Joana Cardoso",
+        "role": "AML Programme Lead"
       }
     ]
   },
@@ -1618,24 +1714,20 @@ export const licenses = [
     "issueDate": "2023-10-22",
     "expiryDate": "2028-10-22",
     "status": "Active",
-    "registeredAddress": "71 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-harbor-services.cv",
-    "contactPhone": "+238 59767 613",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Harbor Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Yuri Xavier",
-        "role": "Client Relations Principal"
-      },
-      {
-        "name": "Carla Delgado",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Fabio Lima",
+        "name": "Fabio Silva",
         "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Yuri Quintino",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -1647,20 +1739,24 @@ export const licenses = [
     "issueDate": "2014-01-01",
     "expiryDate": "2019-01-01",
     "status": "Under Review",
-    "registeredAddress": "72 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-horizon-advisors.cv",
-    "contactPhone": "+238 59780 620",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Horizon Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Ana Almeida",
-        "role": "Managing Director"
+        "name": "Paulo Neves",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Daniel Fernandes",
+        "name": "Luis Fernandes",
         "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Marta Macedo",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -1672,24 +1768,24 @@ export const licenses = [
     "issueDate": "2015-04-08",
     "expiryDate": "2020-04-08",
     "status": "Suspended",
-    "registeredAddress": "73 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-horizon-holdings.cv",
-    "contactPhone": "+238 59793 627",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Horizon Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Bruno Cardoso",
-        "role": "Chief Compliance Officer"
+        "name": "Carla Fernandes",
+        "role": "Operations Supervisor"
       },
       {
-        "name": "Elisa Henriques",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Igor Pereira",
+        "name": "Ana Tavares",
         "role": "Risk Management Lead"
+      },
+      {
+        "name": "Fabio Delgado",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -1701,20 +1797,24 @@ export const licenses = [
     "issueDate": "2016-07-15",
     "expiryDate": "2021-07-15",
     "status": "Lapsed",
-    "registeredAddress": "74 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-horizon-partners.cv",
-    "contactPhone": "+238 59806 634",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Horizon Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Carla Esteves",
-        "role": "Head of Trading"
+        "name": "Nuno Almeida",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Fabio Macedo",
-        "role": "Risk Management Lead"
+        "name": "Nuno Lima",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Yuri Vidal",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -1726,24 +1826,24 @@ export const licenses = [
     "issueDate": "2017-10-22",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "75 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-horizon-ventures.cv",
-    "contactPhone": "+238 59819 641",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Horizon Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Daniel Gomes",
-        "role": "Risk Management Lead"
+        "name": "Ana Silva",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Helena Oliveira",
-        "role": "Operations Supervisor"
+        "name": "Bruno Zamora",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Luis Tavares",
-        "role": "Client Relations Principal"
+        "name": "Rita Neves",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -1755,20 +1855,28 @@ export const licenses = [
     "issueDate": "2018-01-01",
     "expiryDate": "2023-01-01",
     "status": "Active",
-    "registeredAddress": "76 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-horizon-consulting.cv",
-    "contactPhone": "+238 59832 648",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Horizon Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Elisa Lima",
-        "role": "Operations Supervisor"
+        "name": "Joana Macedo",
+        "role": "Head of Trading"
       },
       {
-        "name": "Igor Quintino",
-        "role": "Client Relations Principal"
+        "name": "Olivia Oliveira",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Luis Esteves",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Daniel Barbosa",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -1780,24 +1888,28 @@ export const licenses = [
     "issueDate": "2019-04-08",
     "expiryDate": "2024-04-08",
     "status": "Active",
-    "registeredAddress": "77 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-horizon-markets.cv",
-    "contactPhone": "+238 59845 655",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Horizon Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Fabio Neves",
-        "role": "Client Relations Principal"
+        "name": "Vasco Esteves",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Joana Silva",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Nuno Almeida",
+        "name": "Daniel Delgado",
         "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Daniel Xavier",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Joana Zamora",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -1809,20 +1921,28 @@ export const licenses = [
     "issueDate": "2020-07-15",
     "expiryDate": "2025-07-15",
     "status": "Active",
-    "registeredAddress": "78 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-horizon-trust.cv",
-    "contactPhone": "+238 59858 662",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Horizon Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Helena Pereira",
-        "role": "Managing Director"
+        "name": "Helena Zamora",
+        "role": "Client Relations Principal"
       },
       {
-        "name": "Luis Vidal",
-        "role": "Chief Compliance Officer"
+        "name": "Paulo Ramos",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Wilma Pereira",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Paulo Tavares",
+        "role": "Risk Management Lead"
       }
     ]
   },
@@ -1834,24 +1954,28 @@ export const licenses = [
     "issueDate": "2021-10-22",
     "expiryDate": "2026-10-22",
     "status": "Under Review",
-    "registeredAddress": "79 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-horizon-associates.cv",
-    "contactPhone": "+238 59871 669",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Horizon Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Igor Ramos",
-        "role": "Chief Compliance Officer"
+        "name": "Sergio Ramos",
+        "role": "Managing Director"
       },
       {
-        "name": "Marta Zamora",
-        "role": "Head of Trading"
+        "name": "Elisa Gomes",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Paulo Esteves",
-        "role": "Risk Management Lead"
+        "name": "Paulo Gomes",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Vasco Ramos",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -1863,20 +1987,28 @@ export const licenses = [
     "issueDate": "2022-01-01",
     "expiryDate": "2027-01-01",
     "status": "Suspended",
-    "registeredAddress": "80 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-horizon-investments.cv",
-    "contactPhone": "+238 59884 676",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Horizon Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Joana Tavares",
-        "role": "Head of Trading"
+        "name": "Daniel Macedo",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Nuno Barbosa",
-        "role": "Risk Management Lead"
+        "name": "Sergio Vidal",
+        "role": "AML Programme Lead"
+      },
+      {
+        "name": "Igor Almeida",
+        "role": "Treasury Controller"
+      },
+      {
+        "name": "Carla Oliveira",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -1888,24 +2020,20 @@ export const licenses = [
     "issueDate": "2023-04-08",
     "expiryDate": "2028-04-08",
     "status": "Lapsed",
-    "registeredAddress": "81 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-horizon-services.cv",
-    "contactPhone": "+238 59897 683",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Horizon Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Luis Xavier",
+        "name": "Olivia Esteves",
         "role": "Risk Management Lead"
       },
       {
-        "name": "Olivia Delgado",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Sergio Lima",
-        "role": "Client Relations Principal"
+        "name": "Fabio Macedo",
+        "role": "Settlement Supervisor"
       }
     ]
   },
@@ -1917,20 +2045,20 @@ export const licenses = [
     "issueDate": "2014-07-15",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "82 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-ledger-advisors.cv",
-    "contactPhone": "+238 59910 690",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Ledger Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Marta Almeida",
-        "role": "Operations Supervisor"
+        "name": "Bruno Zamora",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Paulo Fernandes",
-        "role": "Client Relations Principal"
+        "name": "Teresa Almeida",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -1942,24 +2070,20 @@ export const licenses = [
     "issueDate": "2015-10-22",
     "expiryDate": "2020-10-22",
     "status": "Active",
-    "registeredAddress": "83 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-ledger-holdings.cv",
-    "contactPhone": "+238 59923 697",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Ledger Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Nuno Cardoso",
-        "role": "Client Relations Principal"
+        "name": "Marta Ramos",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Rita Henriques",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Vasco Pereira",
-        "role": "Chief Compliance Officer"
+        "name": "Helena Pereira",
+        "role": "Risk Management Lead"
       }
     ]
   },
@@ -1971,20 +2095,20 @@ export const licenses = [
     "issueDate": "2016-01-01",
     "expiryDate": "2021-01-01",
     "status": "Active",
-    "registeredAddress": "84 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-ledger-partners.cv",
-    "contactPhone": "+238 59936 704",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Ledger Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Olivia Esteves",
-        "role": "Managing Director"
+        "name": "Wilma Macedo",
+        "role": "Head of Trading"
       },
       {
-        "name": "Sergio Macedo",
-        "role": "Chief Compliance Officer"
+        "name": "Vasco Delgado",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -1996,24 +2120,20 @@ export const licenses = [
     "issueDate": "2017-04-08",
     "expiryDate": "2022-04-08",
     "status": "Active",
-    "registeredAddress": "85 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-ledger-ventures.cv",
-    "contactPhone": "+238 59949 711",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Ledger Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Paulo Gomes",
-        "role": "Chief Compliance Officer"
+        "name": "Igor Esteves",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Teresa Oliveira",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Yuri Tavares",
-        "role": "Risk Management Lead"
+        "name": "Joana Silva",
+        "role": "AML Programme Lead"
       }
     ]
   },
@@ -2025,20 +2145,24 @@ export const licenses = [
     "issueDate": "2018-07-15",
     "expiryDate": "2023-07-15",
     "status": "Under Review",
-    "registeredAddress": "86 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-ledger-consulting.cv",
-    "contactPhone": "+238 59962 718",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Ledger Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Rita Lima",
-        "role": "Head of Trading"
+        "name": "Teresa Zamora",
+        "role": "Operations Supervisor"
       },
       {
-        "name": "Vasco Quintino",
-        "role": "Risk Management Lead"
+        "name": "Wilma Henriques",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Sergio Esteves",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -2050,24 +2174,24 @@ export const licenses = [
     "issueDate": "2019-10-22",
     "expiryDate": "2024-10-22",
     "status": "Suspended",
-    "registeredAddress": "87 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-ledger-markets.cv",
-    "contactPhone": "+238 59975 725",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Ledger Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Sergio Neves",
-        "role": "Risk Management Lead"
+        "name": "Fabio Ramos",
+        "role": "Managing Director"
       },
       {
-        "name": "Wilma Silva",
-        "role": "Operations Supervisor"
+        "name": "Luis Xavier",
+        "role": "Chief Compliance Officer"
       },
       {
-        "name": "Bruno Almeida",
-        "role": "Client Relations Principal"
+        "name": "Luis Xavier",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -2079,20 +2203,24 @@ export const licenses = [
     "issueDate": "2020-01-01",
     "expiryDate": "2025-01-01",
     "status": "Lapsed",
-    "registeredAddress": "88 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-ledger-trust.cv",
-    "contactPhone": "+238 59988 732",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Ledger Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Teresa Pereira",
-        "role": "Operations Supervisor"
+        "name": "Paulo Lima",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Yuri Vidal",
-        "role": "Client Relations Principal"
+        "name": "Ana Neves",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Elisa Oliveira",
+        "role": "Market Surveillance Officer"
       }
     ]
   },
@@ -2104,24 +2232,24 @@ export const licenses = [
     "issueDate": "2021-04-08",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "89 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-ledger-associates.cv",
-    "contactPhone": "+238 59001 739",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Ledger Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Vasco Ramos",
-        "role": "Client Relations Principal"
+        "name": "Carla Delgado",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Ana Zamora",
-        "role": "Managing Director"
+        "name": "Marta Barbosa",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Daniel Esteves",
-        "role": "Chief Compliance Officer"
+        "name": "Yuri Fernandes",
+        "role": "Institutional Liaison"
       }
     ]
   },
@@ -2133,20 +2261,28 @@ export const licenses = [
     "issueDate": "2022-07-15",
     "expiryDate": "2027-07-15",
     "status": "Active",
-    "registeredAddress": "90 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-ledger-investments.cv",
-    "contactPhone": "+238 59014 746",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Ledger Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Wilma Tavares",
-        "role": "Managing Director"
+        "name": "Nuno Xavier",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Bruno Barbosa",
-        "role": "Chief Compliance Officer"
+        "name": "Bruno Quintino",
+        "role": "AML Programme Lead"
+      },
+      {
+        "name": "Paulo Zamora",
+        "role": "Institutional Liaison"
+      },
+      {
+        "name": "Luis Henriques",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -2158,23 +2294,27 @@ export const licenses = [
     "issueDate": "2023-10-22",
     "expiryDate": "2028-10-22",
     "status": "Active",
-    "registeredAddress": "91 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-ledger-services.cv",
-    "contactPhone": "+238 59027 753",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Ledger Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Yuri Xavier",
-        "role": "Chief Compliance Officer"
+        "name": "Ana Quintino",
+        "role": "Chief Technology Officer"
       },
       {
-        "name": "Carla Delgado",
-        "role": "Head of Trading"
+        "name": "Olivia Esteves",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Fabio Lima",
+        "name": "Joana Quintino",
+        "role": "Institutional Liaison"
+      },
+      {
+        "name": "Paulo Fernandes",
         "role": "Risk Management Lead"
       }
     ]
@@ -2187,20 +2327,28 @@ export const licenses = [
     "issueDate": "2014-01-01",
     "expiryDate": "2019-01-01",
     "status": "Active",
-    "registeredAddress": "92 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-maritime-advisors.cv",
-    "contactPhone": "+238 59040 760",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Maritime Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Ana Almeida",
-        "role": "Head of Trading"
+        "name": "Luis Lima",
+        "role": "Chief Compliance Officer"
       },
       {
-        "name": "Daniel Fernandes",
-        "role": "Risk Management Lead"
+        "name": "Carla Tavares",
+        "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Carla Henriques",
+        "role": "Institutional Liaison"
+      },
+      {
+        "name": "Wilma Cardoso",
+        "role": "Operations Supervisor"
       }
     ]
   },
@@ -2212,23 +2360,27 @@ export const licenses = [
     "issueDate": "2015-04-08",
     "expiryDate": "2020-04-08",
     "status": "Under Review",
-    "registeredAddress": "93 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-maritime-holdings.cv",
-    "contactPhone": "+238 59053 767",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Maritime Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Bruno Cardoso",
+        "name": "Vasco Delgado",
+        "role": "AML Programme Lead"
+      },
+      {
+        "name": "Paulo Henriques",
         "role": "Risk Management Lead"
       },
       {
-        "name": "Elisa Henriques",
-        "role": "Operations Supervisor"
+        "name": "Vasco Barbosa",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Igor Pereira",
+        "name": "Daniel Almeida",
         "role": "Client Relations Principal"
       }
     ]
@@ -2241,20 +2393,28 @@ export const licenses = [
     "issueDate": "2016-07-15",
     "expiryDate": "2021-07-15",
     "status": "Suspended",
-    "registeredAddress": "94 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-maritime-partners.cv",
-    "contactPhone": "+238 59066 774",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Maritime Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Carla Esteves",
+        "name": "Helena Xavier",
         "role": "Operations Supervisor"
       },
       {
-        "name": "Fabio Macedo",
-        "role": "Client Relations Principal"
+        "name": "Elisa Zamora",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Olivia Silva",
+        "role": "Settlement Supervisor"
+      },
+      {
+        "name": "Igor Vidal",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -2266,24 +2426,20 @@ export const licenses = [
     "issueDate": "2017-10-22",
     "expiryDate": "2022-10-22",
     "status": "Lapsed",
-    "registeredAddress": "95 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-maritime-ventures.cv",
-    "contactPhone": "+238 59079 781",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Maritime Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Daniel Gomes",
-        "role": "Client Relations Principal"
+        "name": "Sergio Quintino",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Helena Oliveira",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Luis Tavares",
-        "role": "Chief Compliance Officer"
+        "name": "Rita Oliveira",
+        "role": "AML Programme Lead"
       }
     ]
   },
@@ -2295,20 +2451,20 @@ export const licenses = [
     "issueDate": "2018-01-01",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "96 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-maritime-consulting.cv",
-    "contactPhone": "+238 59092 788",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Maritime Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
         "name": "Elisa Lima",
-        "role": "Managing Director"
+        "role": "Treasury Controller"
       },
       {
-        "name": "Igor Quintino",
-        "role": "Chief Compliance Officer"
+        "name": "Fabio Cardoso",
+        "role": "Institutional Liaison"
       }
     ]
   },
@@ -2320,24 +2476,20 @@ export const licenses = [
     "issueDate": "2019-04-08",
     "expiryDate": "2024-04-08",
     "status": "Active",
-    "registeredAddress": "97 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-maritime-markets.cv",
-    "contactPhone": "+238 59105 795",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Maritime Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Fabio Neves",
-        "role": "Chief Compliance Officer"
-      },
-      {
-        "name": "Joana Silva",
+        "name": "Olivia Delgado",
         "role": "Head of Trading"
       },
       {
-        "name": "Nuno Almeida",
-        "role": "Risk Management Lead"
+        "name": "Teresa Ramos",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -2349,19 +2501,19 @@ export const licenses = [
     "issueDate": "2020-07-15",
     "expiryDate": "2025-07-15",
     "status": "Active",
-    "registeredAddress": "98 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-maritime-trust.cv",
-    "contactPhone": "+238 59118 802",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Maritime Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Helena Pereira",
-        "role": "Head of Trading"
+        "name": "Bruno Xavier",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Luis Vidal",
+        "name": "Helena Fernandes",
         "role": "Risk Management Lead"
       }
     ]
@@ -2374,24 +2526,20 @@ export const licenses = [
     "issueDate": "2021-10-22",
     "expiryDate": "2026-10-22",
     "status": "Active",
-    "registeredAddress": "99 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-maritime-associates.cv",
-    "contactPhone": "+238 59131 809",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Maritime Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Igor Ramos",
-        "role": "Risk Management Lead"
-      },
-      {
-        "name": "Marta Zamora",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Paulo Esteves",
+        "name": "Marta Quintino",
         "role": "Client Relations Principal"
+      },
+      {
+        "name": "Vasco Vidal",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -2403,20 +2551,24 @@ export const licenses = [
     "issueDate": "2022-01-01",
     "expiryDate": "2027-01-01",
     "status": "Under Review",
-    "registeredAddress": "100 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-maritime-investments.cv",
-    "contactPhone": "+238 59144 816",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Maritime Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Joana Tavares",
-        "role": "Operations Supervisor"
+        "name": "Yuri Lima",
+        "role": "Managing Director"
       },
       {
-        "name": "Nuno Barbosa",
-        "role": "Client Relations Principal"
+        "name": "Joana Lima",
+        "role": "AML Programme Lead"
+      },
+      {
+        "name": "Yuri Zamora",
+        "role": "Chief Compliance Officer"
       }
     ]
   },
@@ -2428,23 +2580,23 @@ export const licenses = [
     "issueDate": "2023-04-08",
     "expiryDate": "2028-04-08",
     "status": "Suspended",
-    "registeredAddress": "101 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-maritime-services.cv",
-    "contactPhone": "+238 59157 823",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Maritime Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Luis Xavier",
-        "role": "Client Relations Principal"
+        "name": "Igor Cardoso",
+        "role": "AML Programme Lead"
       },
       {
-        "name": "Olivia Delgado",
-        "role": "Managing Director"
+        "name": "Wilma Almeida",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Sergio Lima",
+        "name": "Rita Pereira",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -2457,19 +2609,23 @@ export const licenses = [
     "issueDate": "2014-07-15",
     "expiryDate": "2019-07-15",
     "status": "Lapsed",
-    "registeredAddress": "102 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@atlantic-summit-advisors.cv",
-    "contactPhone": "+238 59170 830",
+    "contactPhone": "",
     "businessCategory": "Retail FX Brokerage",
     "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
     "description": "Founded in 2014, Atlantic Summit Advisors delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
     "keyPersons": [
       {
-        "name": "Marta Almeida",
-        "role": "Managing Director"
+        "name": "Teresa Vidal",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Paulo Fernandes",
+        "name": "Luis Pereira",
+        "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Joana Gomes",
         "role": "Chief Compliance Officer"
       }
     ]
@@ -2482,24 +2638,24 @@ export const licenses = [
     "issueDate": "2015-10-22",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "103 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@azure-summit-holdings.cv",
-    "contactPhone": "+238 59183 837",
+    "contactPhone": "",
     "businessCategory": "Institutional FX Brokerage",
     "complianceNotes": "Underwent enhanced due diligence during the most recent supervisory cycle.",
     "description": "Founded in 2015, Azure Summit Holdings supports regional exporters with hedging strategies against Euro and USD volatility.",
     "keyPersons": [
       {
-        "name": "Nuno Cardoso",
-        "role": "Chief Compliance Officer"
+        "name": "Fabio Pereira",
+        "role": "Settlement Supervisor"
       },
       {
-        "name": "Rita Henriques",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Vasco Pereira",
+        "name": "Ana Delgado",
         "role": "Risk Management Lead"
+      },
+      {
+        "name": "Daniel Almeida",
+        "role": "Head of Trading"
       }
     ]
   },
@@ -2511,19 +2667,27 @@ export const licenses = [
     "issueDate": "2016-01-01",
     "expiryDate": "2021-01-01",
     "status": "Active",
-    "registeredAddress": "104 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@beacon-summit-partners.cv",
-    "contactPhone": "+238 59196 844",
+    "contactPhone": "",
     "businessCategory": "Multi-Asset Dealing Desk",
     "complianceNotes": "Submitted revised capital adequacy statement in the last reporting period.",
     "description": "Founded in 2016, Beacon Summit Partners specialises in low-latency order routing for diaspora remittance channels.",
     "keyPersons": [
       {
-        "name": "Olivia Esteves",
+        "name": "Rita Henriques",
+        "role": "Chief Technology Officer"
+      },
+      {
+        "name": "Marta Silva",
+        "role": "Client Relations Principal"
+      },
+      {
+        "name": "Wilma Ramos",
         "role": "Head of Trading"
       },
       {
-        "name": "Sergio Macedo",
+        "name": "Rita Quintino",
         "role": "Risk Management Lead"
       }
     ]
@@ -2536,24 +2700,28 @@ export const licenses = [
     "issueDate": "2017-04-08",
     "expiryDate": "2022-04-08",
     "status": "Active",
-    "registeredAddress": "105 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@blue-summit-ventures.cv",
-    "contactPhone": "+238 59209 851",
+    "contactPhone": "",
     "businessCategory": "FX Liquidity Provision",
     "complianceNotes": "Implements mandatory client asset segregation with monthly reconciliations.",
     "description": "Founded in 2017, Blue Summit Ventures partners with local banks to provide treasury outsourcing and liquidity management.",
     "keyPersons": [
       {
-        "name": "Paulo Gomes",
-        "role": "Risk Management Lead"
+        "name": "Carla Cardoso",
+        "role": "Chief Compliance Officer"
       },
       {
-        "name": "Teresa Oliveira",
+        "name": "Bruno Gomes",
+        "role": "AML Programme Lead"
+      },
+      {
+        "name": "Olivia Lima",
+        "role": "Head of Trading"
+      },
+      {
+        "name": "Yuri Oliveira",
         "role": "Operations Supervisor"
-      },
-      {
-        "name": "Yuri Tavares",
-        "role": "Client Relations Principal"
       }
     ]
   },
@@ -2565,19 +2733,27 @@ export const licenses = [
     "issueDate": "2018-07-15",
     "expiryDate": "2023-07-15",
     "status": "Active",
-    "registeredAddress": "106 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@coral-summit-consulting.cv",
-    "contactPhone": "+238 59222 858",
+    "contactPhone": "",
     "businessCategory": "Commodities Brokerage",
     "complianceNotes": "Participates in cross-border information sharing with Lusophone regulators.",
     "description": "Founded in 2018, Coral Summit Consulting offers portfolio diversification tools for high-net-worth investors across West Africa.",
     "keyPersons": [
       {
-        "name": "Rita Lima",
-        "role": "Operations Supervisor"
+        "name": "Nuno Vidal",
+        "role": "Market Surveillance Officer"
       },
       {
-        "name": "Vasco Quintino",
+        "name": "Nuno Xavier",
+        "role": "Institutional Liaison"
+      },
+      {
+        "name": "Igor Cardoso",
+        "role": "Head of Trading"
+      },
+      {
+        "name": "Daniel Lima",
         "role": "Client Relations Principal"
       }
     ]
@@ -2590,24 +2766,28 @@ export const licenses = [
     "issueDate": "2019-10-22",
     "expiryDate": "2024-10-22",
     "status": "Under Review",
-    "registeredAddress": "107 Povoação Velha Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@emerald-summit-markets.cv",
-    "contactPhone": "+238 59235 865",
+    "contactPhone": "",
     "businessCategory": "Derivatives Advisory",
     "complianceNotes": "Filed updated disaster recovery plan incorporating offshore redundancy.",
     "description": "Founded in 2019, Emerald Summit Markets focuses on sustainable finance instruments linked to island infrastructure projects.",
     "keyPersons": [
       {
-        "name": "Sergio Neves",
-        "role": "Client Relations Principal"
+        "name": "Ana Pereira",
+        "role": "Operations Supervisor"
       },
       {
-        "name": "Wilma Silva",
-        "role": "Managing Director"
-      },
-      {
-        "name": "Bruno Almeida",
+        "name": "Carla Macedo",
         "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Bruno Tavares",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Joana Gomes",
+        "role": "Chief Technology Officer"
       }
     ]
   },
@@ -2619,20 +2799,28 @@ export const licenses = [
     "issueDate": "2020-01-01",
     "expiryDate": "2025-01-01",
     "status": "Suspended",
-    "registeredAddress": "108 Rabil Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@harbor-summit-trust.cv",
-    "contactPhone": "+238 59248 872",
+    "contactPhone": "",
     "businessCategory": "Wealth Management Services",
     "complianceNotes": "Completed independent AML/CTF audit with satisfactory findings.",
     "description": "Founded in 2020, Harbor Summit Trust implements disciplined risk management tailored to maritime shipping clients.",
     "keyPersons": [
       {
-        "name": "Teresa Pereira",
+        "name": "Luis Henriques",
         "role": "Managing Director"
       },
       {
-        "name": "Yuri Vidal",
-        "role": "Chief Compliance Officer"
+        "name": "Paulo Barbosa",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Teresa Neves",
+        "role": "Risk Management Lead"
+      },
+      {
+        "name": "Paulo Delgado",
+        "role": "Treasury Controller"
       }
     ]
   },
@@ -2644,24 +2832,20 @@ export const licenses = [
     "issueDate": "2021-04-08",
     "expiryDate": "2026-04-08",
     "status": "Lapsed",
-    "registeredAddress": "109 Sal Rei Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@mariner-summit-associates.cv",
-    "contactPhone": "+238 59261 879",
+    "contactPhone": "",
     "businessCategory": "Payment and Remittance Services",
     "complianceNotes": "Subject to annual prudential assessment focusing on liquidity buffers.",
     "description": "Founded in 2021, Mariner Summit Associates provides onboarding support for fintech entrants expanding into Lusophone markets.",
     "keyPersons": [
       {
-        "name": "Vasco Ramos",
-        "role": "Chief Compliance Officer"
+        "name": "Vasco Cardoso",
+        "role": "Treasury Controller"
       },
       {
-        "name": "Ana Zamora",
-        "role": "Head of Trading"
-      },
-      {
-        "name": "Daniel Esteves",
-        "role": "Risk Management Lead"
+        "name": "Daniel Pereira",
+        "role": "Client Relations Principal"
       }
     ]
   },
@@ -2673,20 +2857,20 @@ export const licenses = [
     "issueDate": "2022-07-15",
     "expiryDate": "N/A",
     "status": "Active",
-    "registeredAddress": "110 Bofareira Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@palm-summit-investments.cv",
-    "contactPhone": "+238 59274 886",
+    "contactPhone": "",
     "businessCategory": "Treasury Outsourcing",
     "complianceNotes": "Maintains bilingual client disclosures in Portuguese and English.",
     "description": "Founded in 2022, Palm Summit Investments operates bespoke FX solutions for renewable energy initiatives throughout Boa Vista.",
     "keyPersons": [
       {
-        "name": "Wilma Tavares",
-        "role": "Head of Trading"
+        "name": "Helena Vidal",
+        "role": "Risk Management Lead"
       },
       {
-        "name": "Bruno Barbosa",
-        "role": "Risk Management Lead"
+        "name": "Rita Esteves",
+        "role": "AML Programme Lead"
       }
     ]
   },
@@ -2698,24 +2882,20 @@ export const licenses = [
     "issueDate": "2023-10-22",
     "expiryDate": "2028-10-22",
     "status": "Active",
-    "registeredAddress": "111 Estância de Baixo Coastal Road, Boa Vista, Cabo Verde",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
     "contactEmail": "licensing@sand-summit-services.cv",
-    "contactPhone": "+238 59287 893",
+    "contactPhone": "",
     "businessCategory": "Corporate FX Risk Advisory",
     "complianceNotes": "Operates under conditional approval pending technology platform migration.",
     "description": "Founded in 2023, Sand Summit Services maintains correspondent networks facilitating cross-border commodity trades.",
     "keyPersons": [
       {
-        "name": "Yuri Xavier",
-        "role": "Risk Management Lead"
+        "name": "Sergio Pereira",
+        "role": "Institutional Liaison"
       },
       {
-        "name": "Carla Delgado",
-        "role": "Operations Supervisor"
-      },
-      {
-        "name": "Fabio Lima",
-        "role": "Client Relations Principal"
+        "name": "Fabio Tavares",
+        "role": "Institutional Liaison"
       }
     ]
   }

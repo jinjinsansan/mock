@@ -167,8 +167,6 @@ export default async function LicenseDetail({ params }: { params: Promise<Params
             <h3>Primary Registry Contact</h3>
             <p>
               <strong>Email:</strong> {license.contactEmail}
-              <br />
-              <strong>Telephone:</strong> {license.contactPhone}
             </p>
           </div>
           <div>

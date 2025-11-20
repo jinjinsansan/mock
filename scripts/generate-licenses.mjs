@@ -46,14 +46,6 @@ const categories = [
   "Corporate FX Risk Advisory"
 ];
 
-const districts = [
-  "Povoação Velha",
-  "Rabil",
-  "Sal Rei",
-  "Bofareira",
-  "Estância de Baixo"
-];
-
 const notes = [
   "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
   "Underwent enhanced due diligence during the most recent supervisory cycle.",
@@ -126,13 +118,19 @@ const lastNames = [
   "Zamora"
 ];
 
-const roles = [
+const extendedRoles = [
   "Managing Director",
   "Chief Compliance Officer",
   "Head of Trading",
   "Risk Management Lead",
   "Operations Supervisor",
-  "Client Relations Principal"
+  "Client Relations Principal",
+  "Chief Technology Officer",
+  "Treasury Controller",
+  "AML Programme Lead",
+  "Market Surveillance Officer",
+  "Institutional Liaison",
+  "Settlement Supervisor",
 ];
 
 const categoryCodeMap = {
@@ -172,6 +170,15 @@ function checkSuffix(seed) {
   return suffix;
 }
 
+function createRng(seed) {
+  let state = seed % 2147483647;
+  if (state <= 0) state += 2147483646;
+  return () => {
+    state = (state * 16807) % 2147483647;
+    return state / 2147483647;
+  };
+}
+
 function toSlug(name) {
   return name
     .toLowerCase()
@@ -203,20 +210,21 @@ const licenses = Array.from({ length: 100 }, (_, index) => {
   const statusPool = ["Active", "Active", "Active", "Active", "Under Review", "Suspended", "Lapsed"];
   const status = statusPool[index % statusPool.length];
 
-  const address = `${(index % 199) + 12} ${districts[index % districts.length]} Coastal Road, Boa Vista, Cabo Verde`;
   const domain = slug || `entity-${index + 1}`;
   const contactEmail = `licensing@${domain}.cv`;
-  const contactPhone = `+238 59${pad((index * 13) % 1000, 3)} ${(200 + (index * 7)) % 1000}`;
 
   const category = categories[index % categories.length];
   const note = notes[index % notes.length];
   const description = `Founded in ${year}, ${name} ${descriptions[index % descriptions.length]}.`;
 
-  const personCount = 2 + (index % 2);
-  const selectedPersons = Array.from({ length: personCount }, (__, personIndex) => {
-    const first = firstNames[(index + personIndex * 3) % firstNames.length];
-    const last = lastNames[(index * 2 + personIndex * 5) % lastNames.length];
-    const role = roles[(index + personIndex) % roles.length];
+  const rng = createRng((index + 1) * 9187);
+  const registeredAddress = "Boa Vista, Republic of Cabo Verde";
+
+  const personCount = 2 + Math.floor(rng() * 3);
+  const selectedPersons = Array.from({ length: personCount }, () => {
+    const first = firstNames[Math.floor(rng() * firstNames.length)];
+    const last = lastNames[Math.floor(rng() * lastNames.length)];
+    const role = extendedRoles[Math.floor(rng() * extendedRoles.length)];
     return { name: `${first} ${last}`, role };
   });
 
@@ -236,9 +244,9 @@ const licenses = Array.from({ length: 100 }, (_, index) => {
     issueDate,
     expiryDate,
     status,
-    registeredAddress: address,
+    registeredAddress,
     contactEmail,
-    contactPhone,
+    contactPhone: "",
     businessCategory: category,
     complianceNotes: note,
     description,
