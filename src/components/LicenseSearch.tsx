@@ -103,50 +103,86 @@ export function LicenseSearch({ licenses }: Props) {
         </p>
       </div>
 
-      <div className={styles.tableWrapper}>
-        {filteredLicenses.length === 0 ? (
-          <div className={styles.emptyState}>
-            <p>No licensed entities matched the supplied terms.</p>
-            <p>Try broadening the keywords or resetting the search.</p>
+      {filteredLicenses.length === 0 ? (
+        <div className={styles.emptyState}>
+          <p>No licensed entities matched the supplied terms.</p>
+          <p>Try broadening the keywords or resetting the search.</p>
+        </div>
+      ) : (
+        <>
+          <div className={styles.tableWrapper}>
+            <table>
+              <caption>Licensed Financial Operators Index</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Company</th>
+                  <th scope="col">License #</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Issue Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                {resultsForDisplay.map((license) => {
+                  const statusVariant = STATUS_CLASS_MAP[license.status] ?? styles.statusDefault;
+                  return (
+                    <tr key={license.licenseNumber}>
+                      <td>
+                        <Link href={`/licenses/${license.slug}`} className={styles.companyLink}>
+                          {license.companyName}
+                        </Link>
+                        <div className={styles.category}>{license.businessCategory}</div>
+                      </td>
+                      <td className={styles.licenseCell}>{license.licenseNumber}</td>
+                      <td>
+                        <span className={`${styles.statusBadge} ${statusVariant}`}>
+                          {license.status}
+                        </span>
+                      </td>
+                      <td>{license.issueDate}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
-        ) : (
-          <table>
-            <caption>Licensed Financial Operators Index</caption>
-            <thead>
-              <tr>
-                <th scope="col">Company</th>
-                <th scope="col">License #</th>
-                <th scope="col">Status</th>
-                <th scope="col">Issue Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              {resultsForDisplay.map((license) => {
-                const statusVariant = STATUS_CLASS_MAP[license.status] ?? styles.statusDefault;
-                return (
-                  <tr key={license.licenseNumber}>
-                    <td data-label="Company">
-                      <Link href={`/licenses/${license.slug}`} className={styles.companyLink}>
+
+          <div className={styles.mobileList}>
+            {resultsForDisplay.map((license) => {
+              const statusVariant = STATUS_CLASS_MAP[license.status] ?? styles.statusDefault;
+              return (
+                <article className={styles.mobileCard} key={`mobile-${license.licenseNumber}`}>
+                  <header className={styles.mobileCardHeader}>
+                    <div>
+                      <Link href={`/licenses/${license.slug}`} className={styles.mobileCompany}>
                         {license.companyName}
                       </Link>
-                      <div className={styles.category}>{license.businessCategory}</div>
-                    </td>
-                    <td className={styles.licenseCell} data-label="License #">
-                      {license.licenseNumber}
-                    </td>
-                    <td data-label="Status">
-                      <span className={`${styles.statusBadge} ${statusVariant}`}>
-                        {license.status}
-                      </span>
-                    </td>
-                    <td data-label="Issue Date">{license.issueDate}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        )}
-      </div>
+                      <div className={styles.mobileCategory}>{license.businessCategory}</div>
+                    </div>
+                    <span className={`${styles.statusBadge} ${statusVariant}`}>{license.status}</span>
+                  </header>
+                  <dl className={styles.mobileMeta}>
+                    <div>
+                      <dt>License #</dt>
+                      <dd>{license.licenseNumber}</dd>
+                    </div>
+                    <div>
+                      <dt>Issue Date</dt>
+                      <dd>{license.issueDate}</dd>
+                    </div>
+                    <div>
+                      <dt>Category</dt>
+                      <dd>{license.businessCategory}</dd>
+                    </div>
+                  </dl>
+                  <footer className={styles.mobileFooter}>
+                    <Link href={`/licenses/${license.slug}`}>View full license record →</Link>
+                  </footer>
+                </article>
+              );
+            })}
+          </div>
+        </>
+      )}
 
       {hasMoreResults && (
         <div className={styles.showMoreRow}>
