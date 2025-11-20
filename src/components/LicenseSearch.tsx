@@ -19,6 +19,7 @@ const STATUS_CLASS_MAP: Record<string, string> = {
 export function LicenseSearch({ licenses }: Props) {
   const [inputValue, setInputValue] = useState("");
   const [activeQuery, setActiveQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(20);
 
   const normalisedQuery = activeQuery.trim().toLowerCase();
 
@@ -45,12 +46,21 @@ export function LicenseSearch({ licenses }: Props) {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setActiveQuery(inputValue);
+    setVisibleCount(20);
   };
 
   const handleReset = () => {
     setInputValue("");
     setActiveQuery("");
+    setVisibleCount(20);
   };
+
+  const handleShowMore = () => {
+    setVisibleCount((count) => count + 20);
+  };
+
+  const resultsForDisplay = filteredLicenses.slice(0, visibleCount);
+  const hasMoreResults = filteredLicenses.length > visibleCount;
 
   return (
     <div className={styles.searchCard}>
@@ -84,8 +94,8 @@ export function LicenseSearch({ licenses }: Props) {
 
       <div className={styles.summary}>
         <p>
-          Showing <strong>{filteredLicenses.length}</strong> of <strong>{licenses.length}</strong>{" "}
-          licensed entities{normalisedQuery ? ` for “${activeQuery}”.` : "."}
+          Showing <strong>{resultsForDisplay.length}</strong> of <strong>{filteredLicenses.length}</strong>{" "}
+          matching entities{normalisedQuery ? ` for “${activeQuery}”.` : "."}
         </p>
         <p className={styles.advisory}>
           Note: Results are provided for seminar demonstrations only. Verification with the issuing
@@ -111,7 +121,7 @@ export function LicenseSearch({ licenses }: Props) {
               </tr>
             </thead>
             <tbody>
-              {filteredLicenses.map((license) => {
+              {resultsForDisplay.map((license) => {
                 const statusVariant = STATUS_CLASS_MAP[license.status] ?? styles.statusDefault;
                 return (
                   <tr key={license.licenseNumber}>
@@ -137,6 +147,14 @@ export function LicenseSearch({ licenses }: Props) {
           </table>
         )}
       </div>
+
+      {hasMoreResults && (
+        <div className={styles.showMoreRow}>
+          <button type="button" onClick={handleShowMore} className={styles.showMoreButton}>
+            Show 20 more results
+          </button>
+        </div>
+      )}
     </div>
   );
 }
