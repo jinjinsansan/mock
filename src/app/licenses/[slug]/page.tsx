@@ -60,19 +60,19 @@ export default function LicenseDetail({ params }: { params: Params }) {
             <tbody>
               <tr>
                 <th scope="row">Issue Date</th>
-                <td>{license.issueDate}</td>
+                <td data-label="Issue Date">{license.issueDate}</td>
               </tr>
               <tr>
                 <th scope="row">Expiry / Review Date</th>
-                <td>{license.expiryDate}</td>
+                <td data-label="Expiry / Review Date">{license.expiryDate}</td>
               </tr>
               <tr>
                 <th scope="row">Business Category</th>
-                <td>{license.businessCategory}</td>
+                <td data-label="Business Category">{license.businessCategory}</td>
               </tr>
               <tr>
                 <th scope="row">Registered Address</th>
-                <td>{license.registeredAddress}</td>
+                <td data-label="Registered Address">{license.registeredAddress}</td>
               </tr>
             </tbody>
           </table>
@@ -84,15 +84,15 @@ export default function LicenseDetail({ params }: { params: Params }) {
             <tbody>
               <tr>
                 <th scope="row">Primary Email</th>
-                <td>{license.contactEmail}</td>
+                <td data-label="Primary Email">{license.contactEmail}</td>
               </tr>
               <tr>
                 <th scope="row">Telephone</th>
-                <td>{license.contactPhone}</td>
+                <td data-label="Telephone">{license.contactPhone}</td>
               </tr>
               <tr>
                 <th scope="row">Compliance Notes</th>
-                <td>{license.complianceNotes}</td>
+                <td data-label="Compliance Notes">{license.complianceNotes}</td>
               </tr>
             </tbody>
           </table>

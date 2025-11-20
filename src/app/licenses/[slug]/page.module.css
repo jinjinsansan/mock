@@ -188,3 +188,38 @@
     width: 140px;
   }
 }
+
+@media (max-width: 540px) {
+  .summaryGrid {
+    gap: 16px;
+  }
+
+  .summaryGrid th,
+  .summaryGrid td {
+    display: block;
+    width: 100%;
+  }
+
+  .summaryGrid th {
+    border-bottom: none;
+    padding-bottom: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .summaryGrid td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 8px 10px 12px;
+    font-size: 14px;
+    background-color: var(--bg-body);
+  }
+
+  .summaryGrid tr {
+    display: block;
+    border: 1px solid rgba(31, 47, 76, 0.25);
+    margin-bottom: 12px;
+  }
+}

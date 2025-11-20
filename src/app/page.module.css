@@ -99,6 +99,7 @@
 @media (max-width: 1024px) {
   .layout {
     grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .sidebar {
@@ -118,5 +119,48 @@
 
   .noticeBoard h1 {
     font-size: 24px;
+  }
+
+  .noticeBoard,
+  .sidebarCard {
+    padding: 18px;
+  }
+
+  .lastUpdated {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 540px) {
+  .layout {
+    gap: 18px;
+  }
+
+  .noticeBoard ul {
+    margin-left: 16px;
+  }
+
+  .sidebarCard {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .noticeBoard {
+    padding: 16px;
+  }
+
+  .sidebarCard {
+    padding: 16px;
+  }
+
+  .noticeBoard h1 {
+    font-size: 22px;
+  }
+
+  .lastUpdated {
+    font-size: 12px;
   }
 }

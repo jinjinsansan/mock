@@ -86,7 +86,6 @@
 }
 
 .tableWrapper table {
-  min-width: 600px;
   width: 100%;
 }
 
@@ -208,7 +207,7 @@
     border: none;
     border-bottom: 1px solid rgba(31, 47, 76, 0.2);
     position: relative;
-    padding: 12px 12px 12px 120px;
+    padding: 10px 12px 10px 112px;
     font-size: 14px;
   }
 
@@ -227,11 +226,28 @@
     letter-spacing: 0.02em;
   }
 
+  .tableWrapper td::before {
+    max-width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .licenseCell {
     word-break: break-word;
   }
 
   .statusBadge {
     margin-top: 6px;
+  }
+}
+
+@media (max-width: 420px) {
+  .tableWrapper td {
+    padding-left: 104px;
+  }
+
+  .tableWrapper td::before {
+    max-width: 82px;
   }
 }

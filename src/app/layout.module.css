@@ -113,4 +113,34 @@
   .frame {
     margin: 16px;
   }
+
+  .main {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .frame {
+    margin: 12px;
+  }
+
+  .header {
+    padding: 20px 18px 10px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .main {
+    padding: 18px;
+  }
+
+  .footer {
+    padding: 14px 18px;
+  }
+
+  .nav a {
+    padding: 4px 8px;
+  }
 }
