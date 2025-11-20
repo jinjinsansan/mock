@@ -135,6 +135,43 @@ const roles = [
   "Client Relations Principal"
 ];
 
+const categoryCodeMap = {
+  "Retail FX Brokerage": "FX",
+  "Institutional FX Brokerage": "IX",
+  "Multi-Asset Dealing Desk": "MD",
+  "FX Liquidity Provision": "LP",
+  "Commodities Brokerage": "CB",
+  "Derivatives Advisory": "DA",
+  "Wealth Management Services": "WM",
+  "Payment and Remittance Services": "PR",
+  "Treasury Outsourcing": "TO",
+  "Corporate FX Risk Advisory": "CR",
+};
+
+const bureauPrefix = "BVP";
+const checkSuffixChars = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+
+function randomBlock(seed) {
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  let value = seed;
+  let block = "";
+  for (let i = 0; i < 4; i++) {
+    value = (value * 9301 + 49297) % 233280;
+    block += chars.charAt(value % chars.length);
+  }
+  return block;
+}
+
+function checkSuffix(seed) {
+  let value = seed;
+  let suffix = "";
+  for (let i = 0; i < 2; i++) {
+    value = (value * 241 + 37) % 127;
+    suffix += checkSuffixChars.charAt(value % checkSuffixChars.length);
+  }
+  return suffix;
+}
+
 function toSlug(name) {
   return name
     .toLowerCase()
@@ -183,11 +220,19 @@ const licenses = Array.from({ length: 100 }, (_, index) => {
     return { name: `${first} ${last}`, role };
   });
 
+  const quarter = Math.floor((month - 1) / 3) + 1;
+  const categoryCode = categoryCodeMap[category] ?? "FX";
+  const randomSegmentSeed = (index + 1) * 7919;
+  const randomSegment = randomBlock(randomSegmentSeed);
+  const suffixSeed = randomSegmentSeed + quarter * 31;
+  const suffixCode = checkSuffix(suffixSeed);
+  const licenseNumber = `${bureauPrefix}-${categoryCode}-${String(year).slice(-2)}Q${quarter}-${randomSegment}-${suffixCode}`;
+
   return {
     id: index + 1,
     slug,
     companyName: name,
-    licenseNumber: `CV-BOA-${year}-${pad(index + 1, 4)}`,
+    licenseNumber,
     issueDate,
     expiryDate,
     status,
