@@ -72,7 +72,7 @@
 .summaryGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
+  gap: 24px;
 }
 
 .summaryGrid h2 {
@@ -83,28 +83,103 @@
   color: var(--ink-heading);
 }
 
-.summaryGrid table {
+.panel {
+  border: 1px solid var(--ink-frame);
   background-color: var(--bg-body);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.summaryGrid th {
-  width: 160px;
+.panel dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 18px;
+}
+
+.panel dl div {
+  border: 1px dashed rgba(31, 47, 76, 0.4);
+  background-color: rgba(255, 250, 220, 0.6);
+  padding: 10px 12px;
+}
+
+.panel dt {
+  margin: 0 0 6px;
+  font-family: var(--font-heading);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-heading);
+}
+
+.panel dd {
+  margin: 0;
+  font-size: 14px;
+}
+
+.documentList {
+  border-top: 1px solid rgba(31, 47, 76, 0.25);
+  padding-top: 10px;
+}
+
+.documentHeading {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.documentList ul {
+  list-style: square;
+  margin: 0 0 0 18px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.documentList code {
+  margin-left: 6px;
+  background: rgba(24, 37, 67, 0.08);
+  padding: 2px 6px;
+  border-radius: 2px;
 }
 
 .descriptionSection,
-.personnelSection {
+.personnelSection,
+.contactSection {
   border: 1px solid var(--ink-frame);
   background-color: var(--bg-emphasis);
   padding: 16px 18px;
 }
 
 .descriptionSection h2,
-.personnelSection h2 {
+.personnelSection h2,
+.contactSection h2 {
   margin: 0 0 10px;
   font-family: var(--font-heading);
   font-size: 20px;
   text-transform: uppercase;
   color: var(--ink-heading);
+}
+
+.contactSection h3 {
+  margin: 0 0 6px;
+  font-family: var(--font-heading);
+  font-size: 15px;
+  text-transform: uppercase;
+  color: var(--ink-heading);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .personnelSection ul {
@@ -184,8 +259,12 @@
     font-size: 24px;
   }
 
-  .summaryGrid th {
-    width: 140px;
+  .panel dl {
+    grid-template-columns: 1fr;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -194,32 +273,7 @@
     gap: 16px;
   }
 
-  .summaryGrid th,
-  .summaryGrid td {
-    display: block;
-    width: 100%;
-  }
-
-  .summaryGrid th {
-    border-bottom: none;
-    padding-bottom: 4px;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .summaryGrid td {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding: 8px 10px 12px;
-    font-size: 14px;
-    background-color: var(--bg-body);
-  }
-
-  .summaryGrid tr {
-    display: block;
-    border: 1px solid rgba(31, 47, 76, 0.25);
-    margin-bottom: 12px;
+  .panel dl div {
+    padding: 10px;
   }
 }
