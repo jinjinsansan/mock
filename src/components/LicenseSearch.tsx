@@ -115,19 +115,21 @@ export function LicenseSearch({ licenses }: Props) {
                 const statusVariant = STATUS_CLASS_MAP[license.status] ?? styles.statusDefault;
                 return (
                   <tr key={license.licenseNumber}>
-                    <td>
+                    <td data-label="Company">
                       <Link href={`/licenses/${license.slug}`} className={styles.companyLink}>
                         {license.companyName}
                       </Link>
                       <div className={styles.category}>{license.businessCategory}</div>
                     </td>
-                    <td className={styles.licenseCell}>{license.licenseNumber}</td>
-                    <td>
+                    <td className={styles.licenseCell} data-label="License #">
+                      {license.licenseNumber}
+                    </td>
+                    <td data-label="Status">
                       <span className={`${styles.statusBadge} ${statusVariant}`}>
                         {license.status}
                       </span>
                     </td>
-                    <td>{license.issueDate}</td>
+                    <td data-label="Issue Date">{license.issueDate}</td>
                   </tr>
                 );
               })}
