@@ -1,0 +1,190 @@
+.detailCard {
+  border: 2px solid var(--ink-frame);
+  background-color: var(--bg-card);
+  padding: 28px 30px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid var(--ink-frame);
+  padding-bottom: 12px;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 30px;
+  color: var(--ink-heading);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  font-size: 15px;
+  color: var(--ink-secondary);
+}
+
+.statusBadge {
+  border: 2px solid var(--ink-frame);
+  padding: 6px 14px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: #f0e6c9;
+  color: #2c2411;
+}
+
+.statusActive {
+  background-color: #cfe3b5;
+  border-color: #4f6f27;
+  color: #27410f;
+}
+
+.statusReview {
+  background-color: #f7e1a7;
+  border-color: #8a6109;
+  color: #513200;
+}
+
+.statusSuspended {
+  background-color: #f0b7a4;
+  border-color: #91351a;
+  color: #48190c;
+}
+
+.statusLapsed {
+  background-color: #d0d0d0;
+  border-color: #5f5f5f;
+  color: #2b2b2b;
+}
+
+.statusDefault {
+  background-color: #e0d5bc;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.summaryGrid h2 {
+  margin: 0 0 12px;
+  font-family: var(--font-heading);
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--ink-heading);
+}
+
+.summaryGrid table {
+  background-color: var(--bg-body);
+}
+
+.summaryGrid th {
+  width: 160px;
+}
+
+.descriptionSection,
+.personnelSection {
+  border: 1px solid var(--ink-frame);
+  background-color: var(--bg-emphasis);
+  padding: 16px 18px;
+}
+
+.descriptionSection h2,
+.personnelSection h2 {
+  margin: 0 0 10px;
+  font-family: var(--font-heading);
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--ink-heading);
+}
+
+.personnelSection ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.personName {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.personRole {
+  color: var(--ink-secondary);
+}
+
+.actions {
+  border: 1px dashed var(--ink-frame);
+  padding: 16px 18px;
+  background-color: #fdf5dd;
+}
+
+.actions button {
+  padding: 8px 16px;
+  border: 1px solid var(--ink-frame);
+  background: linear-gradient(180deg, #dad0b0 0%, #c6ba95 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.actions button:disabled {
+  opacity: 0.6;
+}
+
+.disclaimer {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--ink-secondary);
+}
+
+.returnLink {
+  font-size: 14px;
+}
+
+.returnLink a {
+  text-decoration: none;
+}
+
+.returnLink a:hover,
+.returnLink a:focus {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .summaryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .detailCard {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .summaryGrid th {
+    width: 140px;
+  }
+}

@@ -1,65 +1,73 @@
-import Image from "next/image";
+import { LicenseSearch } from "@/components/LicenseSearch";
+import { licenses } from "@/data/licenses";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className={styles.layout}>
+      <div className={styles.primaryColumn}>
+        <section className={styles.noticeBoard}>
+          <h1>Financial Operator Licensing Registry</h1>
+          <p>
+            Welcome to the central index for financial market authorisations issued on Boa Vista
+            Island, Republic of Cabo Verde. This archive is maintained by the Boa Vista Private
+            Licensing Bureau to facilitate quick verification of retail and institutional FX service
+            providers.
+          </p>
+          <ul>
+            <li>Search by company name, license reference or descriptive keywords.</li>
+            <li>Review status indicators reflecting the most recent supervisory assessment.</li>
+            <li>Access individual operator records with compliance notes and key personnel.</li>
+          </ul>
+          <div className={styles.lastUpdated}>
+            <span className={styles.label}>Registry Extract Date:</span>
+            <span className={styles.value}>15 November 2025 (Revision Cycle Q4)</span>
+          </div>
+        </section>
+
+        <section id="directory" className={styles.directorySection}>
+          <LicenseSearch licenses={licenses} />
+        </section>
+      </div>
+
+      <aside className={styles.sidebar}>
+        <div className={styles.sidebarCard}>
+          <h2>Operating Statement</h2>
+          <p>
+            The Boa Vista Private Licensing Bureau acts under provincial mandate to monitor issuance
+            of foreign exchange and derivatives permissions. All files listed herein are subject to
+            annual prudential review.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className={styles.sidebarCard}>
+          <h2>Submission Desk</h2>
+          <p>
+            For amendments or inquiries, lodge documentation via the postal counter or faxed copies
+            to +238 595 221. Digital submissions are catalogued within two working days.
+          </p>
+          <div className={styles.sidebarList}>
+            <span>Office Hours: Monday to Friday · 09:30 – 16:00</span>
+            <span>Physical Registry: Avenida Principal 44, Sal Rei</span>
+            <span>Official Fax: +238 595 221</span>
+            <span>Clerical Email: records@bvp-licensing.cv</span>
+          </div>
         </div>
-      </main>
+
+        <div className={styles.sidebarCard}>
+          <h2>Advisory Notices</h2>
+          <p className={styles.noticeItem}>
+            • Provisional statuses remain in effect until supplemental capital attestations are
+            received.
+          </p>
+          <p className={styles.noticeItem}>
+            • Suspended entities retain appeal rights for 30 days from notification of action.
+          </p>
+          <p className={styles.noticeItem}>
+            • Operators flagged as lapsed may not solicit clients within Boa Vista jurisdiction.
+          </p>
+        </div>
+      </aside>
     </div>
   );
 }
