@@ -49413,6 +49413,34 @@ export const licenses: LicenseRecord[] = [
         "role": "Operations Supervisor"
       }
     ]
+  },
+  {
+    "id": 1901,
+    "slug": "1540bo",
+    "companyName": "1540BO",
+    "licenseNumber": "BVP-FX-23Q2-K7N9-M3",
+    "issueDate": "2023-04-15",
+    "expiryDate": "2027-04-15",
+    "status": "Active",
+    "registeredAddress": "Boa Vista, Republic of Cabo Verde",
+    "contactEmail": "info@1540bo.com",
+    "businessCategory": "Retail FX Brokerage",
+    "complianceNotes": "Maintains quarterly compliance updates with the Boa Vista Financial Authority.",
+    "description": "Founded in 2023, 1540BO delivers currency execution and settlement solutions to the Cape Verdean hospitality and tourism sector.",
+    "keyPersons": [
+      {
+        "name": "Bruno Fernandes",
+        "role": "Managing Director"
+      },
+      {
+        "name": "Helena Silva",
+        "role": "Chief Compliance Officer"
+      },
+      {
+        "name": "Paulo Oliveira",
+        "role": "Head of Trading"
+      }
+    ]
   }
 ];
 
