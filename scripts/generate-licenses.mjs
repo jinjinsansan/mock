@@ -5,9 +5,26 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const TOTAL_RECORDS = 1800;
+const TOTAL_RECORDS = 1900;
 
-// 1800個のユニークなプレフィックスを生成（A-Z各文字約69個）
+// 数字で始まる会社名プレフィックス（100個）
+const numericPrefixes = [
+  "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10",
+  "11", "12", "24", "21", "22", "88", "99", "100", "101", "123",
+  "247", "360", "365", "500", "777", "888", "999", "1000", "1st Class", "1st Choice",
+  "1st Global", "1st Prime", "1st Rate", "1stEdge", "1stLine", "1stTier", "20/20", "21st Century",
+  "24/7", "24Hour", "247Global", "2X", "3D", "3Sixty", "3X", "4Corners",
+  "4Star", "4X", "5Star", "5X", "6Sigma", "7Seas", "7Star",
+  "8Figure", "9to5", "A1", "AA", "AAA", "Alpha1", "Alpha7", "Alpha9",
+  "Beta1", "Delta1", "First1", "First7", "First9", "Gamma1", "Number1", "One1",
+  "Prime1", "Prime7", "Prime9", "Sigma1", "Top1", "Top10", "Top100", "Top7",
+  "Top9", "Zeta1", "Zero1", "10x", "100x", "1stWorld", "20x", "24K",
+  "24x", "2Point", "2x", "3Point", "3x", "40x", "4Point", "4x",
+  "50x", "5Point", "5x", "60x", "6Point", "6x", "7Point", "7x",
+  "80x", "8Point", "8x", "90x", "9Point", "9x", "A1Plus"
+];
+
+// A-Zのプレフィックス（1800個）
 const prefixGroups = {
   A: ["Acadia", "Acorn", "Advance", "Aegis", "Aether", "Affinity", "Agile", "Albatross", "Alcazar", "Alder", "Allegiance", "Alliance", "Alpine", "Altair", "Altitude", "Amber", "Ambit", "Anchor", "Anthem", "Apex", "Apollo", "Aquila", "Arbor", "Arcade", "Arcadia", "Arch", "Arctic", "Ardent", "Argent", "Argo", "Argonaut", "Aria", "Ariel", "Armada", "Arsenal", "Arrow", "Ascend", "Ashford", "Aspect", "Aspen", "Asset", "Astral", "Astute", "Athena", "Atlantic", "Atlas", "Auburn", "Aurora", "Austere", "Autumn", "Avalon", "Avenue", "Avery", "Avian", "Axiom", "Azure", "Acumen", "Admiral", "Advent", "Affinity", "Agate", "Agora", "Alloy", "Almanac", "Alchemy", "Aldrin", "Almond", "Altus", "Amaranth", "Ambient"],
   B: ["Ballast", "Baltic", "Banyan", "Barley", "Baron", "Barrel", "Basalt", "Basin", "Bastion", "Bay", "Bayline", "Beacon", "Bearing", "Bedford", "Beech", "Bellwether", "Benchmark", "Benefit", "Berkeley", "Beryl", "Birch", "Blackstone", "Blade", "Blaze", "Bloom", "Blossom", "Blue", "Bluefin", "Blueprint", "Boreal", "Boulder", "Boundary", "Bow", "Bradford", "Branch", "Brass", "Brassline", "Breakwater", "Breeze", "Brentwood", "Bridge", "Bridgeport", "Bright", "Brightwater", "Brilliant", "Brimstone", "Briny", "Bristol", "Broadreach", "Bronze", "Brook", "Buckle", "Bulwark", "Burnish", "Butte", "Buttonwood", "Byline", "Banner", "Barton", "Bayview", "Beacon", "Bedford", "Belmont", "Berwick", "Birchwood", "Blackwood", "Bluewater", "Bolton", "Bradford"],
@@ -37,9 +54,9 @@ const prefixGroups = {
   Z: ["Zachary", "Zaffre", "Zagreb", "Zaire", "Zambia", "Zane", "Zanzibar", "Zeal", "Zealous", "Zealshore", "Zebra", "Zed", "Zedline", "Zenith", "Zephyr", "Zephyrus", "Zeppelin", "Zero", "Zest", "Zestline", "Zeus", "Zigzag", "Zimbabwe", "Zimmerman", "Zinc", "Zinnia", "Zion", "Zip", "Zipcode", "Zipper", "Zircon", "Zodiac", "Zombie", "Zone", "Zoo", "Zoom", "Zulu", "Zurich"]
 };
 
-// すべてのプレフィックスをフラット化
-const allPrefixes = Object.values(prefixGroups).flat();
-console.log(`Total prefixes available: ${allPrefixes.length}`);
+// すべてのプレフィックスをフラット化（数字 + アルファベット）
+const allPrefixes = [...numericPrefixes, ...Object.values(prefixGroups).flat()];
+console.log(`Total prefixes available: ${allPrefixes.length} (${numericPrefixes.length} numeric + ${Object.values(prefixGroups).flat().length} alphabetic)`);
 
 if (allPrefixes.length < TOTAL_RECORDS) {
   throw new Error(`Not enough unique prefixes! Need ${TOTAL_RECORDS}, but only have ${allPrefixes.length}`);

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "Complete alphabetical roster of all financial operators registered with the Boa Vista Private Licensing Bureau.",
 };
 
+const NUMBERS = "0123456789".split("");
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 function groupLicenses() {
@@ -19,8 +20,17 @@ function groupLicenses() {
   const groups = new Map<string, typeof sorted>();
 
   for (const entry of sorted) {
-    const firstChar = entry.companyName.charAt(0).toUpperCase();
-    const key = LETTERS.includes(firstChar) ? firstChar : "#";
+    const firstChar = entry.companyName.charAt(0);
+    let key: string;
+    
+    if (/[0-9]/.test(firstChar)) {
+      key = firstChar;
+    } else if (LETTERS.includes(firstChar.toUpperCase())) {
+      key = firstChar.toUpperCase();
+    } else {
+      key = "#";
+    }
+    
     const bucket = groups.get(key);
     if (bucket) {
       bucket.push(entry);
@@ -34,7 +44,18 @@ function groupLicenses() {
 
 export default function DirectoryPage() {
   const { groups, total } = groupLicenses();
-  const availableGroups = Array.from(groups.entries());
+  
+  // 0-9, A-Z, # の順に並べる
+  const sortedKeys = [...groups.keys()].sort((a, b) => {
+    if (a === "#") return 1;
+    if (b === "#") return -1;
+    if (/[0-9]/.test(a) && /[0-9]/.test(b)) return a.localeCompare(b);
+    if (/[0-9]/.test(a)) return -1;
+    if (/[0-9]/.test(b)) return 1;
+    return a.localeCompare(b);
+  });
+  
+  const availableGroups = sortedKeys.map(key => [key, groups.get(key)!] as const);
   const hasMisc = groups.has("#");
 
   return (
@@ -48,13 +69,27 @@ export default function DirectoryPage() {
           entity name.
         </p>
         <p className={styles.notice}>
-          Use the index to jump to a letter grouping, then select any operator to open its full
+          Use the index to jump to a number or letter grouping, then select any operator to open its full
           license record.
         </p>
       </section>
 
-      <nav className={styles.alphaNav} aria-label="Alphabetical index">
+      <nav className={styles.alphaNav} aria-label="Index navigation">
         <ul>
+          {NUMBERS.map((num) => {
+            const target = `section-${num}`;
+            const enabled = groups.has(num);
+            return (
+              <li key={num}>
+                {enabled ? (
+                  <Link href={`#${target}`}>{num}</Link>
+                ) : (
+                  <span aria-disabled="true">{num}</span>
+                )}
+              </li>
+            );
+          })}
+          <li className={styles.separator}>|</li>
           {LETTERS.map((letter) => {
             const target = `section-${letter}`;
             const enabled = groups.has(letter);
@@ -69,17 +104,27 @@ export default function DirectoryPage() {
             );
           })}
           {hasMisc && (
-            <li>
-              <Link href="#section-misc">#</Link>
-            </li>
+            <>
+              <li className={styles.separator}>|</li>
+              <li>
+                <Link href="#section-misc">#</Link>
+              </li>
+            </>
           )}
         </ul>
       </nav>
 
       <div className={styles.directoryWrapper}>
-        {availableGroups.map(([letter, entries]) => {
-          const sectionId = letter === "#" ? "section-misc" : `section-${letter}`;
-          const headingLabel = letter === "#" ? "Non-alphabetic headings" : `Letter ${letter}`;
+        {availableGroups.map(([key, entries]) => {
+          const sectionId = key === "#" ? "section-misc" : `section-${key}`;
+          let headingLabel: string;
+          if (key === "#") {
+            headingLabel = "Other Characters";
+          } else if (/[0-9]/.test(key)) {
+            headingLabel = `Number ${key}`;
+          } else {
+            headingLabel = `Letter ${key}`;
+          }
 
           return (
             <section key={sectionId} id={sectionId} className={styles.letterSection}>
