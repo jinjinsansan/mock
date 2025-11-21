@@ -52,7 +52,7 @@ export default function RootLayout({
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/#directory">License Directory</Link>
+                  <Link href="/directory">Alphabetical Directory</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact</Link>
