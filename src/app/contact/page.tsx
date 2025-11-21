@@ -16,10 +16,6 @@ export default function ContactPage() {
             <td>Boa Vista Private Licensing Bureau, Caixa Postal 88, Sal Rei, Boa Vista</td>
           </tr>
           <tr>
-            <th scope="row">Telephone</th>
-            <td>+238 595 220 / +238 595 221</td>
-          </tr>
-          <tr>
             <th scope="row">Clerical Email</th>
             <td>records@bvp-licensing.cv</td>
           </tr>
