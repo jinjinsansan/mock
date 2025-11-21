@@ -238,9 +238,19 @@
     align-items: stretch;
   }
 
+  .input {
+    padding: 10px 12px;
+    font-size: 16px;
+    min-height: 44px;
+    max-height: 44px;
+    height: 44px;
+  }
+
   .submitButton,
   .resetButton {
     width: 100%;
+    padding: 10px 18px;
+    min-height: 44px;
   }
 
   .tableWrapper {

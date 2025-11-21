@@ -62,11 +62,7 @@ export default function RootLayout({
           </header>
           <main className={styles.main}>{children}</main>
           <footer className={styles.footer}>
-            <p>
-              This registry is a mock environment prepared for seminar demonstrations. Records are
-              illustrative and hold no regulatory force.
-            </p>
-            <p>© 2025 Boa Vista Private Licensing Bureau. All rights reserved.</p>
+            <p>© 2007 Boa Vista Private Licensing Bureau. All rights reserved.</p>
           </footer>
         </div>
       </body>

@@ -43,13 +43,11 @@ export default function Home() {
         <div className={styles.sidebarCard}>
           <h2>Submission Desk</h2>
           <p>
-            For amendments or inquiries, lodge documentation via the postal counter or faxed copies
-            to +238 595 221. Digital submissions are catalogued within two working days.
+            For amendments or inquiries, lodge documentation via the postal counter. Digital submissions are catalogued within two working days.
           </p>
           <div className={styles.sidebarList}>
             <span>Office Hours: Monday to Friday · 09:30 – 16:00</span>
             <span>Physical Registry: Avenida Principal 44, Sal Rei</span>
-            <span>Official Fax: +238 595 221</span>
             <span>Clerical Email: records@bvp-licensing.cv</span>
           </div>
         </div>

@@ -97,10 +97,6 @@ export function LicenseSearch({ licenses }: Props) {
           Showing <strong>{resultsForDisplay.length}</strong> of <strong>{filteredLicenses.length}</strong>{" "}
           matching entities{normalisedQuery ? ` for “${activeQuery}”.` : "."}
         </p>
-        <p className={styles.advisory}>
-          Note: Results are provided for seminar demonstrations only. Verification with the issuing
-          bureau is required before any commercial reliance.
-        </p>
       </div>
 
       {filteredLicenses.length === 0 ? (
